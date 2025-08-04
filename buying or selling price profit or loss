@@ -1,0 +1,11 @@
+buy = int(input("Enter the buying price:"))
+sell= int(input("Enter the selling price:"))
+if sell>buy:
+    print("It is Profit")
+elif sell-buy ==0:
+        print("The difference between buy and sell is 0")
+else:
+    print("It is Loss")
+
+
+
